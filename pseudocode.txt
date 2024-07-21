@@ -1,0 +1,55 @@
+                       Pseudocode for Memory Game with Timer
+
+
+START
+
+LOAD HTML PAGE
+
+Display greeting with player’s name
+Load and shuffle card images
+Initialize game board with shuffled cards
+Start the timer
+FUNCTION Board
+
+FOR EACH card in shuffled deck
+Create card element
+Set card cover image
+Set card face image
+Add card element to board
+FUNCTION HandleCardClick
+
+WHEN card is clicked
+IF card is already flipped or matched
+RETURN
+FLIP card
+ADD card to selected cards list
+FUNCTION CheckMatch
+
+IF two cards are selected
+IF cards match
+MARK cards as matched
+REMOVE matched cards from board
+UPDATE score
+IF all pairs matched
+CALL Winner
+ELSE
+WAIT for 1 second
+FLIP both cards back to cover images
+FUNCTION Winner
+
+IF all pairs matched before time runs out
+DISPLAY "Hooray! You are the winner!" message
+SHOW final score
+ELSE
+IF time runs out and not all pairs are matched
+DISPLAY "Don't worry, you can try again." message
+FUNCTION StartTimer
+
+SET time limit to 3 minutes (180 seconds)
+INITIALIZE remaining time to time limit
+UPDATE timer display every second
+IF time reaches 0
+STOP the timer
+CALL Winner
+
+END
