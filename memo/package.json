@@ -1,0 +1,17 @@
+{
+  "name": "memorygame",
+  "version": "1.0.0",
+  "main": "../js/script.js, ../js/scriptSecond.js",
+  "scripts": {
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "watchify": "^4.0.0"
+  }
+}
