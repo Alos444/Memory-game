@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server",
-    "liveServer.settings.port": "3000",
+    "liveServer.settings.port": "5502",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
