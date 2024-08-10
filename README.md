@@ -6,8 +6,12 @@ The game consists of two main pages:
 
 ### Entry Page.
 A page where the player enters their name to start the game.
+![Home page image](./images/welcome-page.PNG)
+
+
 ### Game Page
 The main game page where the player interacts with the card game.
+![Home page image](./images/game.PNG)
 
 ## Technologies and Techniques
 
